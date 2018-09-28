@@ -1,0 +1,366 @@
+* 1. Absolutely.
+* 2. Absolutely impossible!
+* 3. All I have to do is learn English.
+* 4. Are you free tomorrow.
+* 5. Are you married?
+* 6. Are you used food here?
+* 7. Be careful.
+* 8. Be my 
+* 9. Better than never.
+* 10. Beter 
+* 11. Better safe than sorry.
+* 12. Can I have a day off?
+* 13. Can I help?
+* 14. Can I take a massage?
+* 15. Can I take a ring check?
+* 16. Can I take your order?
+* 17. Can you give me a wark up call?
+* 18. Can you give me s
+* 19. Can you make it?
+* 20. Can I have a work with you?
+* 21. 
+* 22. Cheer up!
+* 23. Come in make yourself at home.
+* 24. C
+* 25. Could you drop me 
+* 26. Could you speak slower?
+* 27. Could you take a picture for me.
+* 28. Did you enjoy your
+* 29. Did you have a good day
+* 30. Did you have a nice 
+* 31. Did you 
+* 32. Dinner is on me.
+* 33. Do you have 
+* 34. Do you have any hobbys?
+* 35. Do you have some change?
+* 36. Do you mind my smoke?
+* 37. Do you often work out?
+* 38. Do you speak English?
+* 39. Dont 
+* 40. Don't get me wrong?
+* 41. 
+* 42. Don't give up.
+* 43. Don't jump
+* 44. Don't let me down.
+* 45. Don't make any mistake.
+* 46. Don't 
+* 47. Don't mis
+* 48. Don't 
+* 49. Don't take it 
+* 50. Don't warry about it.
+* 51. Easy come easy go.
+* 52. Enjoy your 
+* 53. 
+* 54. First come first server.
+* 55. For here or to go.
+* 56. Forget it.
+* 57. For
+* 58. Give me a call.
+* 59. Give my bast to 
+* 60. Have a 
+* 61. Have you ever been to Japan.
+* 62. Have you filished it
+* 63. Have you anything large.
+* 64. Have you got that.
+* 65. Have you he
+* 66. He is in 
+* 67. Help yourself please.
+* 68. Hold your hurse.
+* 69. How can I get in touch 
+* 70. How do I look?
+* 71. How is it going?
+* 72. How late are you open?
+* 73. How long did it last?
+* 74. How long will it take me to get there.
+* 75. How much is it?
+* 76. How often do you eat out?
+* 77. I pologize.
+* 78. I a
+* 79. I a
+* 80. I 
+* 81. I can manage.
+* 82. I cann't 
+* 83. I cann't belive it.
+* 84. I cann't 
+* 85. I cann't stand it.
+* 86. I cann't tell.
+* 87. I couldn't a g
+* 88. I couldn't get through.
+* 89. I couldn't help it.
+* 90. I didn't mean to.
+* 91. I don't know for 
+* 92. I enjoy your company.
+* 93. I enjoy it very much.
+* 94. I 
+* 95. I feel like some
+* 96. I feel torrible about it.
+* 97. I feel the same way.
+* 98. I have a complained.
+* 99. I have nothing to do with it.
+* 100. I haven't 
+* 101. I hope you forget me.
+* 102. I know the feeling.
+* 103. I 
+* 104. I owe you one.
+* 105. I realy regret it.
+* 106. I support so.
+* 107. I 
+* 108. I understand completely.
+* 109. I want to report a f
+* 110. I want to 
+* 111. I was just about to call you.
+* 112. I was moved.
+* 113. I wasn't a
+* 114. I wasn't boring yestaday.
+* 115. I wish I could.
+* 116. I w
+* 117. I like a r
+* 118. I like to 
+* 119. I like to make a resevation.
+* 120. I'll be r
+* 121. I'll check it.
+* 122. I'll do my best.
+* 123. I'll get it.
+* 124. I'll give you a hand.
+* 125. I'll have to see about that.
+* 126. I'll keep my eyes open.
+* 127. I'll keep that in mind.
+* 128. I'll pick up the tape.
+* 129. I'll play by 
+* 130. I'll see what I can do.
+* 131. I'll 
+* 132. I'll take care of it.
+* 133. I'll take it.
+* 134. I'll take your 
+* 135. I'll think it over.
+* 136. I'll treat you to dinner.
+* 137. I'll walk you to the door.
+* 138. I'll b
+* 139. I'm crazy about English.
+* 140. I'm easy to pleas
+* 141. I'm glad to hear that.
+* 142. I'm glad you enjoy it.
+* 143. I'm good at it.
+* 144. I'm in a good
+* 145. I'm in a good
+* 146. I'm just have a look.
+* 147. I'm looking for a part time job.
+* 148. I'm looking forward to it.
+* 149. I'm lost.
+* 150. I'm not feeling well.
+* 151. I'm not myself today.
+* 152. I'm not realy sure.
+* 153. I'm on a 
+* 154. I'm on my way.
+* 155. I'm 
+* 156. I'm sorry I am late.
+* 157. I'm sorry to hear that.
+* 158. I'm 
+* 159. I'm working on it.
+* 160. I'm changed my mind.
+* 161. I've 
+* 162. I've got my hand for?
+* 163. I've got news for you.
+* 164. I've got no idea.
+* 165. I've had enough.
+* 166. If I 
+* 167. Is that OK?
+* 168. Is this see taken.
+* 169. It all depend
+* 170. It can happen to any one.
+* 171. It doesn't make 
+* 172. It doesn't made to me.
+* 173. It doesn't work.
+* 174. It drive me crazy.
+* 175. It isn't much.
+* 176. It really comes in 
+* 177. It s
+* 178. It takes time.
+* 179. It will come to me.
+* 180. It will do you good.
+* 181. It won't happen again.
+* 182. It won't take much time.
+* 183. It won't work.
+* 184. It's nice meeting you. 
+* 185. It's a dear.
+* 186. It's a long story.
+* 187. It's a nice day today.
+* 188. It's once a 
+* 189. It's a pain in the neck.
+* 190. It's a pice of cake.
+* 191. It's a small world.
+* 192. It's a waste of time.
+* 193. It's about time.
+* 194. It's 
+* 195. It's awesome.
+* 196. It's awful.
+* 197. It's be
+* 198. It's better than nothing.
+* 199. It's 
+* 200. It's hard to say.
+* 201. It's increadable.
+* 202. It's just 
+* 203. It's my pleasure.
+* 204. It's no big deal.
+* 205. It's not your 
+* 206
+* 207. It's only a matter time.
+* 208. It's out of question.
+* 209. It's time for dinner.
+* 210. It's up in the air.
+* 211. It's up to date.
+* 212. It's up to you.
+* 213. It's very par
+* 214. It's 
+* 215. Just let it be.
+* 216. Just to be on the safe side.
+* 217. Keep the change.
+* 218. Keep up the good work.
+* 219. Keep your fingers cross.
+* 220. Kill two birds
+* 221. Let me get back to you.
+* 222. Let me guess.
+* 223. Let me put it this way.
+* 224. Let me see.
+* 225. Let's call it da
+* 226. Let's celebrate.
+* 227. Let's find out.
+* 228. Let's get to the point.
+* 229. Let's get together some time.
+* 230. Let's hope the bask.
+* 231. Let's keep in touch.
+* 232. Let's make up.
+* 233. Let's go visit them.
+* 234. Let's talk over dinner.
+* 235. Long time no see.
+* 236. Look before you 
+* 237. May I ask you a question.
+* 238. May I have a reset.
+* 239. May I have your name, please?
+* 240. May I pay by credit card.
+* 241. May I try it on.
+* 242. Maybe it work.
+* 243. Maybe some other time.
+* 244. My mouth
+* 245. My 
+* 246. No paying no g
+* 247. No problem.
+* 248. No
+* 249. Pain passed 
+* 250. Please accept my 
+* 251. Please don't blind yourself.
+* 252. Please leave me 
+* 253. Please let me know.
+* 254. Please make yourself at home.
+* 255. Please show me the menu.
+* 256. Parabb
+* 257. So far so good.
+* 258. Something must 
+* 259. something come up.
+* 260. stones 
+* 261. Suit yourself.
+* 262. Take care.
+* 263. Take it or leave it.
+* 264. Take my word for it.
+* 265. Take your time.
+* 266. Thank you on the 
+* 267. Thank you for everything.
+* 268. Thanks a million.
+* 269. Thanks for the 
+* 270. Thanks for your coobra
+* 271. That could be better.
+* 272. 
+* 273. That makes sence.
+* 274. That remains me.
+* 275. That rings bell.
+* 276. That s
+* 277. That's all right.
+* 278. That's deca
+* 279. That's f
+* 280. That's for sure.
+* 281. That's good to know.
+* 282. That's just what I was think.
+* 283. That's life.
+* 284. That's more like it.
+* 285. That's not a problem.
+* 286. That's not true.
+* 287. That's OK.
+* 288. That's redicules.
+* 289. That's the way I look at it, too.
+* 290. That's the way it is.
+* 291. That's wa
+* 292. The sa
+* 293. The 
+* 294. The so
+* 295. There is call for you.
+* 296. There is no 
+* 297. There is nothing I can do.
+* 298. There's a passbility
+* 299. This sence happen
+* 300. This soup take great.
+* 301. Time is money.
+* 302. Tomorrw never comes.
+* 303. Too
+* 304. We are in the same boat.
+* 305. We can get by.
+* 306. We can work it out.
+* 307. We have a lot income.
+* 308. We'll see.
+* 309. What a 
+* 310. What a 
+* 311. What are you up to?
+* 312. What are you talking about?
+* 313. What are your plan for the weekend?
+* 314. What can I do for you?
+* 315. What do you do for relaxation?
+* 316. What do you rek
+* 317. What do you think of I new car?
+* 318. What do you think of it?
+* 319. What is it about?
+* 320. What is it like there?
+* 321. What makes you say so?
+* 322. What's going on?
+* 323. What's on your mind?
+* 324. What's the date
+* 325. What's the matter with you?
+* 326. What's the
+* 327. What's the 
+* 328. What's your flavr
+* 329. What's your job?
+* 330. What ever your think
+* 331. When is the most 
+* 332. When 
+* 333. Where are you going?
+* 334. Where can I check in.
+* 335. Where can I go for help?
+* 336. Where do you leave?
+* 337. Where have you been?
+* 338. Where is the restruan
+* 339. Where were we?
+* 340. Who is in 
+* 341. Would you 
+* 342. Would you do me a faver?
+* 343. You are just saying that.
+* 344. You are kiding.
+* 345. You are so 
+* 346. You can court on me.
+* 347. You can say that again.
+* 348. You cann't complain.
+* 349. You 
+* 350. You did a good job.
+* 351. You get what 
+* 352. You got a good deal.
+* 353. You need a vacation.
+* 354. You never know.
+* 355. You sit it.
+* 356. You 
+* 357. You should take at 
+* 358. You will be better off.
+* 359. You will have to waitting
+* 360. You get
+* 361. You dailge from number.
+* 362. You got a point there.
+* 363. You've got it.
+* 364. You've make a good choise.
+* 365. Your satisfaction
+
