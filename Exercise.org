@@ -1,0 +1,342 @@
+Linux Command Line and Shell Scripting Bible Second Edition
+* 第1章 初始Linux Shell
+** 1.1 什么是Linux
+*** 1.1.1 深入探究Linux内核
+**** DONE 查看系统内存状态信息的方法？
+~答:=cat /proc/meninfo=~
+答: =cat /proc/meminfo=
+**** DONE 查看系统当前共享内存页面信息的方法？
+~答:~
+答: =ipcs=
+**** DONE 之前RedHat启动配置文件在哪？
+答: =/etc/inittab=
+**** DONE Ubuntu启动脚本目录是哪个？启动文件在哪？
+~答: =/etc/init.d=, =/etc/rc.d=, =/etc/intrc=~
+答: =/etc/init.d=, =/etc/rcX.d=
+**** DONE 命令ps aux 的显示输出中命令名称加上方括号代表什么意思？
+~答: 被换出内存的进程~
+答: 进程由内存换出到磁盘交换空间
+**** DONE ttyS设备是什么设备?
+~答: IBM port com设备~
+答: IBM PC COM
+**** DONE 由ls -l /dev命令显示输出内容第5列第6列内容代表什么意思?
+~答: 主从设备号~
+答: 主次设备节点号
+**** DONE 说出如下文件系统代表的意思iso9660 nfs ntfs smb ufs xfs msdos vfat
+答: 依次为光盘镜像,网络文件系统, ~WindowsNT文件系统~ , ~Samaba文件系统~,BSD文
+件系统, ~???,Windows16,Windows32~
+答: Microsoft NT文件系统,Samba文件系统,高性能64位日志文件系统,FAT16,FAT32
+**** DONE VFS代表的意思是?
+答: 虚拟文件系统, ~是用户和真实文件系统的中间层~
+答: 作为和每个文件系统交互的接口
+* 第2章 走进shell
+** 2.1 终端模拟
+*** DONE CLI翻译?
+答: 命令行界面
+*** 2.1.1 图形界面
+**** DONE Unicode ISO-10646
+~答: UTF-8等~
+答: ISO双字节字符集
+**** DONE ANSI色彩控制码
+答: 需要了解
+*** 2.2 terminfo数据库
+**** TODO terminfo数据库存放位置?
+~答: =/lib/~
+答: =/usr/share/terminfo=, =/etc/terminfo=, =/lib/terminfo=
+**** TODO infocmp命令的用途?
+答: 
+答: 将二进制第terminfo数据库文件转换成文本模式显示
+**** DONE 查看当前终端是什么?
+答: =echo $TERM
+* 第3章 基本的bash shell命令
+** 3.5 文件和目录列表
+*** 3.5.1 基本列表功能
+**** DONE $LS_COLORS环境变量的意思?
+~答: 此变量是ls命令输出的彩色显示~
+答: ls命令用不同的颜色区分不同类型的文件
+**** DONE ls命令-F参数代表的意思?
+~答: ??~
+答: 给条目追加文件类型条目
+**** DONE ls命令-R参数代表的意思?
+答: 递归显示子目录
+**** DONE ls命令-r参数代表的意思?
+答: 逆序显示
+*** 3.5.3 完整的参数列表
+**** DONE ls命令-sail参数代表的意思?
+答: a全部l长格式i索引节点号
+答: s列出文件的块大小
+*** 3.5.4 过滤输出列表
+**** DONE shell中?和*代表什么意思?
+答: ?代表一个字符*零个或多个
+** 3.6 处理文件
+*** 3.6.1 创建文件
+**** DONE 改变文件的访问时间如何操作?
+答: =touch -a text.txt=
+**** DONE 改变文件的修改时间如何操作?
+答: =touch -m text.txt=
+**** DONE 改变文件到指定时间如何操作?
+答: =touch -t 201809251812 text.txt=
+*** 3.6.2 复制文件
+**** DONE 仅源文件比目标文件新的情况下复制? 
+答: =cp -u A B=
+**** DONE 保留文件属性的复制?
+答: =cp -p A B=
+**** DONE 创建一个符号链接而非复制文件?
+答: =cp -s A B=
+**** DONE 创建一个链接而非复制文件?
+答: =cp -l A B=
+** 3.8 查看文件内容
+*** 3.8.1 查看文件统计信息
+**** DONE 查看文件系统上的某个文件的所有状态信息?
+~答: =state file=~
+答: =stat file=*
+** 3.8.3 查看整个文件
+**** DONE 查看文件附上行号?
+答: =cat -n file=
+**** DONE 只给文本行附上行号?
+答: =cat -b file=
+**** DONE 多行空白压缩为单行?
+答: =cat -s file=
+*** 3.8.4 查看部分文件
+**** DONE tail命令追加显示更新内容?
+答: =tail -f file=
+* 第4章 更多第bash shell命令
+** 4.1 检测程序
+*** 4.1.1 探查进程
+**** TODO ps-ef输出中C列,STIME列,TIME列代表的意思?
+~答: C列CPU使用百分比STIME列开始时间TIME列累计CPU运算时间~
+答: C列进程生命周期中的CPU利用率,STIME列进程启动时的系统时间,TIME列运
+行进程需要的累计CPU时间
+**** TODO ps-l输出中F列,S列,ADDR列,SZ列,WCHAN列代表第意思?
+~答: F列??S列S运行等待D等待Z僵死0运行,ADDR列进程地址,SZ列进程大
+小,WCHAN列??~
+
+答: F列内核分配给进程的系统标记,S列进程状态0正在运行S休眠R可运行正等待
+Z僵死T停止,ADDR列进程的内存地址,SZ列如果进程被换出,需要的交换空间大
+小,WCHAN列进程休眠的内核函数的地址
+**** DONE ps命令Unix风格参数中层级树状显示的参数是什么?
+~答: =ps --forest=~
+答: =ps -efH=
+**** TODO ps命令BSD风格参数显示中VSZ列,RSS列,STAT列代表的意思?
+~答: VSZ列虚拟内存占用量,RSS实体内存占用量,STAT列状态??~
+答: VSZ列进程在内存中的大小,RSS进程未换出时占用的物理内存,STAT列双字节
+状态码第一字符同Unix风格第二字符<高优先级N低优先级L有页面锁定在内存s为
+控制进程l多线程+前端运行
+*** 4.1.2 实时监测进程
+**** TODO top命令输出中VIRT列,RES列,SHR列,S列,TIME+列代表第意思?
+~答: VIRT列??,RES列??,SHR列共享内存页面??,S列??,TIME+列累计时间~
+答: VIRT列占用虚拟内存总量,RES列占用物理内存总量,SHR列和其他进程共享的
+内存总量,S列进程状态D可中断休眠R在运行S休眠T跟踪状态或停止状态Z僵死
+*** 4.1.3 结束进程
+**** DONE Linux进程信号中挂起,中断,结束运行,无条件终止,尽可能终止的信号的意思?
+~答: 依次为HUP1,??,TERM??,KILL9,??~
+答: 依次为HUP1,INT2,QUIT3,KILL9,TERM15
+**** DONE kill命令如何传信号给进程?
+答: =kill -s HUP PID=
+** 4.2 监测磁盘空间
+*** 4.2.1 挂载存储媒体
+**** DONE 如何挂载光盘镜像文件?
+~答: =mount -t iso9660 image.iso /mnt=~
+答: =mount -t iso9660 -o loop -r image.iso /mnt=
+**** DONE 查看打开某一文件的进程信息?
+~答: =psof~
+答: =lsof=
+*** 4.2.3 使用du命令
+**** DONE 列出总计大小,和列出每个大小?
+答: =du -s=, =du -c=
+** 4.3 处理数据文件
+*** 4.3.1 排序数据
+**** DONE 按数值大小,月份,逆序等排序?
+~答: =ls -M | sort -nr=~
+答: =sort -M=, =sort -n=, =sort -r=
+**** DONE 以冒号分隔字段的第三个字段按数值大小排序/etc/passwd文件?
+~答: =?? -k: -n 3 | sort=~
+答: =sort -t':' -k 3 -n /etc/passwd=
+**** TODO 以文件占用空间量从大到小排序
+~答: =ls -c | sort -rn=~
+答： =du -s | sort -nr=
+*** 4.3.2 搜索数据
+**** DONE 输出不匹配该模式的行?
+答: =grep -v pattern file=
+**** DONE 显示匹配模式的行及行号?
+答: =grep -n pattern file=
+**** DONE 显示有匹配模式的行数?
+答: =grep -c pattern file=
+**** DONE 显示匹配多个模式中的任意一个模式?
+答: =grep -e "pattern1" -e "pattern2" file=
+**** TODO egrep和fgrep各是什么意思?
+~答: egrep扩展正则表达式匹配fgrep??~
+答： egrep为POSIX扩展正则表达式fgrep为匹配模式指定为用换行符分隔的一列固定长度的字符串。
+*** 4.3.3 压缩数据
+**** DONE bzip2,bzcat,bunzip2各是什么意思?
+答: bz2压缩,查看,解压
+**** TODO gzip,gzcat,gunzip各是什么意思?
+~答: zip压缩,查看,解压~
+答： gz压缩，查看，解压
+*** 4.3.4 归档数据
+**** DONE 列出tar包内容
+~答: =tar -t=~
+答： =tar -tf file=
+* 第5章 使用Linux环境变量
+** 5.1 什么是环境变量
+*** 5.1.1 全局环境变量
+**** DONE 查看全局变量
+~答: =prienv=~
+答： =printenv=
+**** TODO set命令输出的内容是什么?
+~答: shell中的环境变量~
+答： 某个特定进程设置的所有环境变量。
+** 5.2 设置环境变量
+*** 5.2.2 设置全局环境变量
+**** DONE 如何导出环境变量?
+答: =export =
+** 5.3 删除环境变量
+*** DONE 如何删除环境变量
+答: =unset =
+** 5.5 设置PATH环境变量
+*** DONE 为PATH增添新的路径?
+答: =PATH=$PATH:/directory/=
+** 5.6 定位系统环境变量
+*** DONE 启动bash shell的三种方式?
+答: 登录shell,非登录的交互shell,运行脚本的非交互shell
+*** 5.6.1 登录shell
+**** TODO 登录shell启动文件读取顺序?
+~答: /etc/profile,/etc/bash_profile,/etc/bash_login~
+答： /etc/profile, $HOME/.bash_profile, $HOME/.bash_login, $HOME/.profile
+**** TODO 通过/etc/profile读取哪个目录下的应用专属启动文件
+答: /etc/profile.d
+**** TODO $HOME/.bash_profile检查哪个启动文件?
+答: $HOME/.bashrc
+*** 5.6.2 交互式shell
+**** TODO 交互式shell启动文件是什么?
+~答: ~/.profile,~/.bash_profile,~/.bashrc~
+答： $HOME/.bashrc, /etc/bashrc
+**** TODO 交互式shell的启动文件什么时候才运行?
+答: 交互式shell的启动文件只会在每次有新的交互式shell启动时才会运行。
+*** 5.6.3 非交互式shell
+**** TODO bash shell检查哪个环境变量来决定要执行的启动文件?
+答: BASH_ENV
+** 5.7 可变数组
+*** TODO 数组如何定义?
+~答: =Array={var1,var2,var3}=~
+答： =Array=(var1 var2 var3)=
+*** TODO 如何显示整个数组变量?
+~答: =echo $Array=~
+答： =echo ${Array[*]}=
+*** TODO 如何删除数组中的某一个值?
+~答: ??~
+答： =unset Array[1]=
+*** TODO 如何删除一个数组?
+~答: ??~
+答： =unset Array=
+** 5.8 使用命令别名
+*** TODO 查看现有的别名列表?
+~答: =alias=~
+答： =alias -p=
+*** TODO 在哪个文件设置别名比较好?
+答: $HOME/.bashrc
+*** TODO 如何创建一个别名
+~答: =alias ll "ls -al --color auto"=~
+答: =alias ll 'ls -al --color=auto'=
+* 第6章 理解Linux文件权限
+** 6.1 Linux的安全性
+*** 6.1.2 /etc/shadow文件
+**** TODO shadow文件各字段代表的意思?
+~答: 用户名,密码段(不可登录为!!),19700101至今分钟数,密码不可修改天数,
+密码过几天必须修改,密码什么时间过期,密码过期几天后禁用~
+答：用户名，密码段（不可登录为!!），自1970-01-01至今的天数，多少天后才
+能更改密码，多少天后才能更改密码，密码过期前几天提醒，密码过期后几天禁
+用，账户被禁用的日期，预留字段
+
+*** 6.1.3 添加新用户
+**** DONE 如何查看Linux系统添加新账户的默认值,以及各个值代表的意思是什么?
+答: =useradd -D=
+**** DONE 创建新用户的同时创建HOME目录
+答: =useradd -m=
+**** DONE 创建新用户的时候指定一个HOME目录
+答: =useradd -d /load=
+**** TODO 创建新用户时设置账户过期日期
+~答: =useradd -t 2019-10-01=~
+答： =useradd -e 2019-10-01=
+**** TODO 创建新用户时设置过期后几天被禁用
+~答:~
+答： =useradd -f 0/-1/n=
+**** DONE 创建新用户时指定登录组
+答: =useradd -g group=
+**** DONE 创建新用户时指定除登录组以外的附加组
+答: =useradd -G group=
+**** DONE 创建新用户时指定默认密码
+答: =useradd -p text=
+**** DONE 创建新用户时指定登录shell
+答: =useradd -s shell=
+**** DONE 创建新用户时指定UID号
+答: =useradd -u UID=
+**** TODO 创建系统用户
+~答: =useradd -a=~
+答： =useradd -r=
+**** TODO 如何改添加新用户的默认值
+答: ?? 
+
+答： useradd -D -b更改默认HOME目录-e更改默认过期日期-f更改过期后几天禁
+用-g更改默认组-s更改默认shell
+
+*** 6.1.4 删除用户
+**** TODO 如何删除用户包括HOME目录和mail目录?
+~答: =usermod -rm=~
+答： =userdel -r=
+*** 6.1.5 修改用户
+**** TODO 用户账户修改工具有哪些?
+~答: chmod,chage,chsh~
+答： usermod,passwd,chpasswd,chage,chfn,chsh
+**** TODO 如何修改用户账户的登录名？
+**** TODO 如何锁定用户账户？
+**** TODO 如何修改账户密码？
+**** TODO 如何解除锁定？
+**** TODO 如何强制用户下次登录时修改密码？
+**** TODO 如何大量修改账户密码？
+**** TODO 如何设置上次修改密码到现在的天数？
+**** TODO 设置密码过期的日期？
+**** TODO 设置密码过期到锁定账户的天数？
+**** TODO 设置修改密码之间最少要多少天？
+**** TODO 设置密码过期前多少天提醒？
+** 6.2 使用Linux组
+*** 6.2.1 /etc/group文件
+**** TODO 使用什么命令来更改组信息？
+*** 6.2.2 创建新组
+**** TODO 如何添加用户到新组？
+** 6.3 理解文件权限
+*** 6.3.1 使用文件权限符
+**** TODO 文件对象类型表示网络设备的字符是什么？
+*** 6.3.2 默认文件权限
+**** TODO umask、文件全权限、目录全权限的默认值是多少？
+** 6.4 改变安全性设置
+*** 6.4.1 改变权限
+**** TODO chmod命令[ugoa][+-=][rwxXstugo]各代表什么意思？
+** 6.5 共享文件
+*** TODO SUID代表什么意思？
+*** TODO SGID代表什么意思？
+*** TODO stick代表什么意思？
+* 第7章 管理文件系统
+** 7.2 操作文件系统
+*** 7.2.3 如果出错了
+**** TODO 检查修复文件系统的命令是？
+** 7.3 逻辑卷管理器
+*** 7.3.3 使用Linux LVM
+**** TODO fdisk改变分区类型？
+**** TODO 如何创建卷组？
+**** TODO 如何创建逻辑卷？
+**** TODO 创建文件系统？
+**** TODO 修改LVM？
+* 第8章 安装软件程序
+** 8.2 基于Debian系统
+*** TODO Debian的PMS工具核心是什么？其他工具有哪些？
+*** 8.2.1 用aptitude管理软件包
+**** TODO 列出某个软件包中的所有文件的列表？
+**** TODO 查找某个特定文件属于哪个软件包？
+*** 8.2.2 用aptitude安装软件包
+*** 8.2.3 用aptitude更新软件
+*** 8.2.4 用aptitude卸载软件
+*** 8.2.5 aptitude库
+**** TODO aptitude默认的软件库位置？
+** 8.3 基于Red Hat系统
+*** 8.3.1 列出已安装包
