@@ -1,0 +1,238 @@
+* TODO *tragedy*
+** n. 悲剧
+* TODO *strike*
+** vt. 打击；罢工
+* TODO *dot*
+** n. 点
+* TODO *tilde*
+** n. 波浪号
+* TODO *alias*
+** n. 别名
+* TODO *declare*
+** vt. 声明
+* TODO *addressable*
+** adj. 可寻址的
+* TODO *disambiguate*
+** vt. 消除歧义
+* TODO *fallback*
+** n. 应变计划；退路
+* TODO *symbolic*
+** n. 符号
+* TODO *duration*
+** n. 持续时间；期间
+* TODO *manipulation*
+** n.操作
+* TODO *flavor*
+** n. 
+*** 1. [uncountable] （食物或饮料的）味道
+*** 2. [countable] （某种）味道
+*** 4. [singular] 特点；特色；气氛
+* TODO *approximation*
+** n. 
+*** 1. 近似值；粗略估计
+*** 2. 类似事物
+* TODO *precisely*
+** adv.
+*** 1. 准确地；恰好地
+*** 2. 精确地；细心地；仔细地
+* TODO *bare*
+** adj.
+*** 1. 裸体的；裸露的
+*** 2. （树木）光秃秃的；（土地）荒芜的
+* TODO *interpreter*
+** n. 解释器
+* TODO *assignment*
+** n. 分配
+* TODO *calendar*
+** n. 日历
+* TODO *concatenate*
+** vt. 连结
+* TODO *wastepaper*
+** n. 废纸
+* TODO *hierarchy*
+** n. 层级
+* TODO *inconvenient*
+** adj. 不方便的；引起麻烦的；造成困难的
+* TODO *explore*
+** vt. 探索
+* TODO *otherwise*
+** adv. 否则
+* TODO *baroque*
+** n. 巴洛克
+*** 典型的巴洛克风格绘画
+paintings representative of the baroque
+** adj. 巴洛克风格的(17至18世纪早期流行于欧洲,气势雄伟,装饰华丽的特色反映在建筑绘画和音乐等艺术上)
+used to describe European architecture, art and music of the 17th and
+early 18th centuries that has a grand and highly decorated style
+*** 巴洛克风格教堂/音乐
+baroque churches/music
+*** 巴洛克风格流行时期
+the baroque period
+
+* TODO *property*
+** n. (plural properties)
+*** 1. 所有物；财产；财物
+[uncountable]a thing or things that are owned by sb; a possession or possessions
+**** 这座大楼是政府的财产。
+This building is government property.
+**** 小心别损及别人的财物。
+Be careful not to damage other people's property.
+* TODO *consume*
+** n. 消费
+* TODO *detach*
+** v.
+*** 1. 拆卸；（使）分开，脱离
+* TODO *simultaneously*
+** 
+* TODO *rid*
+** 
+* TODO *customary*
+** 
+* TODO *terse*
+** 
+* TODO *newcomer*
+** n. 新来者
+* TODO *introductory*
+** 
+* TODO *colophon*
+** n. 尾署
+* TODO *locate*
+** vt. 找寻
+* TODO *pattern*
+** n. 模板；图案
+* TODO *visibility*
+** adj. 可见的
+* TODO *relevant*
+** 
+* TODO *behave*
+** 
+* TODO *statistic*
+** n. 统计
+* TODO *fatal*
+** adj. 致命的
+* TODO *encounter*
+** n. 遇见
+* TODO *whole*
+** adj 整个的
+* TODO *concatenation*
+** 
+* TODO *distinction*
+** n. 区分；辨别
+* TODO *interoperability*
+** n. 互操作
+* TODO *interpret*
+** vt. 解释
+* TODO *implicit*
+** 
+* TODO *compatible*
+** adj. 适应的
+* TODO *impractical*
+** adj. 不切实际的
+* TODO *implementation*
+** n. 执行；实施
+* TODO *prune*
+** vt. 移除；删减
+* TODO *bind*
+** vt. 绑定
+* TODO *regardless of*
+** 不管,不顾
+* TODO *regardless*
+** adj. 不管的
+* TODO *spurious*
+** 
+* TODO *reschedule*
+** n. 重新调整
+* TODO *shoot down*
+** 废除
+* TODO *thermal*
+** adj. 热的
+* TODO *threshold*
+** 
+* TODO *defer*
+** vt. 延迟
+* TODO *exception*
+** n. 例外
+* TODO *poll*
+** 
+* TODO *hyper*
+** n. 过度活跃的
+* TODO *visor*
+** 
+* TODO *nest*
+** n. 窝
+* TODO *cascade*
+** n. 串流
+* TODO *buddy*
+** n. 伙计；朋友
+* TODO *console*
+** n. 控制台
+* TODO *domain*
+** n. 域
+* TODO *signature*
+** n. 签名
+* TODO *combine*
+** vt. 结合
+* TODO *tainted*
+** adj. 污染的
+* TODO *probe*
+** vt. 探测
+* TODO *distributor*
+** n. 发布者
+* TODO *comment*
+** n. 注释
+* TODO *strip*
+** vt. 脱
+* TODO *diversion*
+** 
+* TODO *schedule*
+** n. 时刻表
+* TODO *benchmark*
+** n. 基准
+* TODO *widget*
+** n. 小插件
+* TODO *conservative*
+** 
+* TODO *recipient*
+** n. 容器
+* TODO *etcher*
+** 
+* TODO *slack*
+** n. 松弛
+* TODO *mechanical*
+** adj. 机械的
+* TODO *parity*
+** 
+* TODO *convert*
+** 
+* TODO *merge*
+** vt. 合并
+* TODO *governor*
+** 
+* TODO *mandatory*
+** adj. 强制的
+* TODO *expand*
+** vi. 扩展
+* TODO *paste*
+** vt. 粘连
+* TODO *corrupt*
+** 
+* TODO *curse*
+** 
+* TODO *grace*
+** adj. 优雅的
+* TODO *quota*
+** n. 引用
+* TODO *visual*
+** adj. 视觉的
+* TODO *daisy*
+** n. 雏菊
+* TODO *buttercup*
+** 
+* TODO *apropos*
+** adj. 合适的
+* TODO *plain*
+** adj. 平坦的
+* TODO *agenda*
+** 
+* TODO *verse*
+** 
